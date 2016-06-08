@@ -1,6 +1,8 @@
 /*Last updated on June 7, 2016.*/
 
+/*Set up the content.*/
 .content {max-width: 900px; margin: 0 auto; width: 100%;}
+#summary h1 {font-size: 30px; padding-bottom: 0px;}
 
 /*Set the styles of the navigation bar.*/
 nav {height: 4rem; width: 100%; position: fixed; top: 0; background-color: #f8f8f8; z-index: 2;}
@@ -19,3 +21,8 @@ nav ul.right {float:right;}
 .jumbotron-image {top: -120px; bottom: 20px; width: 100%; background-image: url(images/home.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; position: absolute; z-index: -1;}
 .jumbotron h1 {position: relative; text-align: center; color: white; padding-top: 400px; z-index: 1; font-size: 40px;}
 .jumbotron h2 {font-weight: 900; position: relative; text-align: center; color: white; z-index: 1; margin-top: -50px; margin-bottom: 3rem; font-size: 80px;}
+
+/*Set up footer. */
+footer {margin-top: 2rem; padding: 1rem; background-color#5a5a5a; color: white;}
+footer p {color: white; font-size: 1rem; display: inline-block;}
+footer p.center {text-align: center;}
